@@ -1,0 +1,350 @@
+{
+  "info": {
+    "_postman_id": "70082802-92ce-4a58-92f6-f6540cf5e9a6",
+    "name": "prueba",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "30225157",
+    "_collection_link": "https://go.postman.co/collection/30225157-70082802-92ce-4a58-92f6-f6540cf5e9a6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "listar productos",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzkxNjMzNDk2fQ.wJEvm4OUhCnd1QYvRT--wbE2xaYvjdsSJRGnyfa11zs",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{base_url}/api/ListadoProductos?pageNumber=1&pageSize=10",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "ListadoProductos"
+          ],
+          "query": [
+            {
+              "key": "pageNumber",
+              "value": "1"
+            },
+            {
+              "key": "pageSize",
+              "value": "10"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "detalle producto",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzc4MzMyMzIwfQ.dGT0GXJiTX_YXzx4aOHfmoITRYpp7RyE7YbBl594T1o",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{base_url}/api/1",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "autenticacion",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "UserName",
+              "value": "prueba",
+              "type": "text",
+              "uuid": "79bd181f-8d90-444d-90f7-290503e14a15"
+            },
+            {
+              "key": "PasswordHash",
+              "value": "prueba",
+              "type": "text",
+              "uuid": "01a48a23-49d4-494f-a5e5-8cb0d043af6b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{base_url}/api/auth",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "auth"
+          ],
+          "query": [
+            {
+              "key": "UserName",
+              "value": "prueba",
+              "disabled": true
+            },
+            {
+              "key": "PasswordHash",
+              "value": "prueba",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "creacion productos",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzkxNjEzMjkxfQ.-IdLSyoahoreae6oz81BPSMbD1bDXIezhoG9rrGQnSs",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"productName\": \"carro prueba\",\r\n  \"supplierID\": 1,\r\n  \"categoryID\": 2,\r\n  \"quantityPerUnit\": \"1 unidad\",\r\n  \"unitPrice\": 3500,\r\n  \"unitsInStock\": 20,\r\n  \"unitsOnOrder\": 0,\r\n  \"reorderLevel\": 5,\r\n  \"discontinued\": false\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{base_url}/api/CreacionProducto",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "CreacionProducto"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "creacion productos masiva",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzkxNjEzMjkxfQ.-IdLSyoahoreae6oz81BPSMbD1bDXIezhoG9rrGQnSs",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"quantity\": 10\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{base_url}/api/Bulk",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "Bulk"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ActualizarProducto",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzc4MzMyMzIwfQ.dGT0GXJiTX_YXzx4aOHfmoITRYpp7RyE7YbBl594T1o",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"productName\": \"Laptop Dell prueba\",\r\n  \"supplierID\": 1,\r\n  \"categoryID\": 2,\r\n  \"quantityPerUnit\": \"2 unidades\",\r\n  \"unitPrice\": 4500,\r\n  \"unitsInStock\": 15,\r\n  \"unitsOnOrder\": 5,\r\n  \"reorderLevel\": 3,\r\n  \"discontinued\": false\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{base_url}/api/1",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminacion producto",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzkxNjEzMjkxfQ.-IdLSyoahoreae6oz81BPSMbD1bDXIezhoG9rrGQnSs",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{base_url}/api/3",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "creacion categoria",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzkxNjEzMjkxfQ.-IdLSyoahoreae6oz81BPSMbD1bDXIezhoG9rrGQnSs",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"categoryName\": \"Tecnología\",\r\n  \"description\": \"Productos tecnológicos\",\r\n  \"picture\": \"imagen.png\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "POST https://localhost:7185/api/Category",
+          "protocol": "POST https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7185",
+          "path": [
+            "api",
+            "Category"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "creacion categoria",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJ1ZWJhIiwiZXhwIjoxNzkxNjEzMjkxfQ.-IdLSyoahoreae6oz81BPSMbD1bDXIezhoG9rrGQnSs",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"categoryName\": \"prueba\",\r\n  \"description\": \"Productos tecnológicos\",\r\n  \"picture\": \"imagen.png\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{base_url}/api/creacionCategoria",
+          "host": [
+            "{base_url}"
+          ],
+          "path": [
+            "api",
+            "creacionCategoria"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
