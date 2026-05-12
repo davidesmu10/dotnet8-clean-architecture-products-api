@@ -92,6 +92,8 @@ Errores
 Código	Descripción
 401	Usuario o contraseña incorrectos
 500	Error interno del servidor
+
+
 Product Controller
 GET /api/ListadoProductos
 Descripción
@@ -125,6 +127,8 @@ Response
   "productName": "Laptop",
   "categoryID": 2
 }
+
+
 POST /api/CreacionProducto
 Descripción
 
@@ -144,6 +148,9 @@ Response — 201 Created
   "productId": 10,
   "message": "Producto creado correctamente"
 }
+
+
+
 PUT /api/{id}
 Descripción
 
@@ -156,6 +163,8 @@ Response
 {
   "message": "Producto actualizado correctamente"
 }
+
+
 DELETE /api/{id}
 Descripción
 
@@ -165,6 +174,9 @@ Response
 {
   "message": "Producto eliminado correctamente"
 }
+
+
+
 POST /api/Bulk
 Descripción
 
@@ -182,7 +194,10 @@ Response
 {
   "message": "100000 productos insertados correctamente"
 }
+
+
 Category Controller
+
 POST /api/creacionCategoria
 Descripción
 
