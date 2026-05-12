@@ -62,6 +62,8 @@ La API cuenta con documentación interactiva mediante Swagger.
 
 URL Local
 http://localhost:5000/swagger
+
+
 Auth Controller
 POST /api/auth
 Descripción
