@@ -1,24 +1,57 @@
 import api from "./api";
 import type { Product } from "../types/Product";
 
-export const getProducts = async (pageNumber: number, pageSize: number) => {
-  const response = await api.get(
-    `/ListadoProductos?pageNumber=${pageNumber}&pageSize=${pageSize}`
-  );
+/**
+ * LISTAR productos (paginado)
+ */
+export const getProducts = async (
+  pageNumber: number,
+  pageSize: number
+): Promise<Product[]> => {
+  const response = await api.get("/ListadoProductos", {
+    params: { pageNumber, pageSize }
+  });
+
   return response.data;
 };
 
-export const createProduct = async (data: Product) => {
+/**
+ * OBTENER producto por ID
+ */
+export const getProductById = async (
+  id: number
+): Promise<Product> => {
+  const response = await api.get(`/${id}`);
+  return response.data;
+};
+
+/**
+ * CREAR producto
+ */
+export const createProduct = async (
+  data: Product
+): Promise<any> => {
   const response = await api.post("/CreacionProducto", data);
   return response.data;
 };
 
-export const updateProduct = async (id: number, data: Product) => {
+/**
+ * ACTUALIZAR producto
+ */
+export const updateProduct = async (
+  id: number,
+  data: Product
+): Promise<any> => {
   const response = await api.put(`/${id}`, data);
   return response.data;
 };
 
-export const deleteProduct = async (id: number) => {
+/**
+ * ELIMINAR producto
+ */
+export const deleteProduct = async (
+  id: number
+): Promise<any> => {
   const response = await api.delete(`/${id}`);
   return response.data;
 };

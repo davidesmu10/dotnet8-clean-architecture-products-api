@@ -57,7 +57,7 @@ namespace asisya_api.Controllers
                     });
                 }
 
-                return BadRequest(
+                return Ok(
                     new
                     {
                         Categoria,

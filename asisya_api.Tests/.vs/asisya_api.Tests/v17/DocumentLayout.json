@@ -3,41 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api.Tests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E005AC1-D50B-406A-A9D1-ADECF2567415}|asisya_api.Tests\\asisya_api.Tests.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api.tests\\asisya_api.tests\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E005AC1-D50B-406A-A9D1-ADECF2567415}|asisya_api.Tests\\asisya_api.Tests.csproj|solutionrelative:asisya_api.tests\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\data\\authdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\interfaces\\iauthdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\data\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\interfaces\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\data\\categorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E9EADB4-4DF4-3B86-4D28-486F9CFE4B48}|..\\asisya_api\\asisya_api\\asisya_api.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api\\asisya_api\\interfaces\\icategorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E005AC1-D50B-406A-A9D1-ADECF2567415}|asisya_api.Tests\\asisya_api.Tests.csproj|c:\\users\\david\\desktop\\prueba_2\\asisya\\asisya_api.tests\\asisya_api.tests\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E005AC1-D50B-406A-A9D1-ADECF2567415}|asisya_api.Tests\\asisya_api.Tests.csproj|solutionrelative:asisya_api.tests\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 279,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,156 +28,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-09T18:51:04.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAIwB8BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:07:16.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwEAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:06:52.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthData.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\AuthData.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Data\\AuthData.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\AuthData.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Data\\AuthData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:04:02.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAuthData.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Interfaces\\IAuthData.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Interfaces\\IAuthData.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Interfaces\\IAuthData.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Interfaces\\IAuthData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:03:58.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IProductData.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Interfaces\\IProductData.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Interfaces\\IProductData.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Interfaces\\IProductData.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Interfaces\\IProductData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:03:09.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "ProductData.cs",
               "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\ProductData.cs",
               "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Data\\ProductData.cs",
               "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\ProductData.cs",
               "RelativeToolTip": "..\\asisya_api\\asisya_api\\Data\\ProductData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAABMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:03:02.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAIwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:00:18.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ICategoryData.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Interfaces\\ICategoryData.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Interfaces\\ICategoryData.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Interfaces\\ICategoryData.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Interfaces\\ICategoryData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T18:00:07.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryData.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T17:57:02.121Z",
+              "WhenOpened": "2026-05-14T19:27:23.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Program.cs",
-              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Program.cs",
-              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Program.cs",
-              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Title": "CategoryData.cs",
+              "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
+              "RelativeDocumentMoniker": "..\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
+              "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
+              "RelativeToolTip": "..\\asisya_api\\asisya_api\\Data\\CategoryData.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAUwHAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T17:16:43.498Z",
+              "WhenOpened": "2026-05-14T19:27:12.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api.Tests\\asisya_api.Tests\\ProductControllerTest.cs",
               "RelativeDocumentMoniker": "asisya_api.Tests\\ProductControllerTest.cs",
               "ToolTip": "C:\\Users\\DAVID\\Desktop\\Prueba_2\\asisya\\asisya_api.Tests\\asisya_api.Tests\\ProductControllerTest.cs",
               "RelativeToolTip": "asisya_api.Tests\\ProductControllerTest.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAwwIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T17:06:48.492Z",
               "EditorCaption": ""

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("asisya_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9445759ebfcd54568c76a9d8499b3556d07d15db")]
 [assembly: System.Reflection.AssemblyProductAttribute("asisya_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("asisya_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

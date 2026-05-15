@@ -1,9 +1,14 @@
 export type Product = {
+
+  
+  supplierName: any | null;
+  categoryName: any | null;
+  picture: any | null;
   productID?: number;
 
   productName: string;
   supplierID: number;
-  categoryID: number;
+  categoryID: number | 0;
 
   quantityPerUnit: string;
   unitPrice: number;

@@ -282,3 +282,4 @@ C:\Users\DAVID\Desktop\Prueba_2\asisya\asisya_api\asisya_api\obj\Debug\net8.0\re
 C:\Users\DAVID\Desktop\Prueba_2\asisya\asisya_api\asisya_api\obj\Debug\net8.0\asisya_api.pdb
 C:\Users\DAVID\Desktop\Prueba_2\asisya\asisya_api\asisya_api\obj\Debug\net8.0\asisya_api.genruntimeconfig.cache
 C:\Users\DAVID\Desktop\Prueba_2\asisya\asisya_api\asisya_api\obj\Debug\net8.0\ref\asisya_api.dll
+C:\Users\DAVID\Desktop\Prueba_2\asisya\asisya_api\asisya_api\obj\Debug\net8.0\asisya_api.sourcelink.json
