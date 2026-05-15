@@ -225,5 +225,48 @@ Ubicación
 Uso
 Importar la colección en Postman
 Seleccionar el environment local
+
+
+
+
+
+🚀 EJECUCIÓN DEL PROYECTO
+🐳 Ejecución con Docker (RECOMENDADO)
+
+Este proyecto está completamente dockerizado. Para ejecutarlo solo necesitas:
+
+docker-compose up --build
+🌐 Accesos del sistema
+
+Una vez levantado el proyecto:
+
+🖥️ Frontend: http://localhost:3000
+⚙️ API: http://localhost:5000
+📄 Swagger: http://localhost:5000/swagger
+🔐 Usuario por defecto
+
+Para iniciar sesión en el sistema:
+
+Usuario: prueba
+Contraseña: prueba
+⚠️ IMPORTANTE (orden de uso del sistema)
+
+Antes de crear productos debes:
+
+Iniciar sesión
+Crear al menos una categoría
+Usar IDs válidos de categoría y proveedor
+Luego crear productos
+💻 Ejecución en local (opcional)
+Backend (.NET 8)
+dotnet restore
+dotnet run
+Frontend (React)
+npm install
+npm run dev
+🧠 Nota
+El sistema requiere JWT para endpoints protegidos
+El backend debe estar conectado a SQL Server
+Docker levanta toda la arquitectura automáticamente
 Ejecutar el endpoint de login
 Utilizar automáticamente el token JWT en endpoints protegidos
