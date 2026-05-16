@@ -270,3 +270,6 @@ El backend debe estar conectado a SQL Server
 Docker levanta toda la arquitectura automáticamente
 Ejecutar el endpoint de login
 Utilizar automáticamente el token JWT en endpoints protegidos
+
+
+nota: crear categoría antes de crear profuctos
